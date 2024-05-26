@@ -46,7 +46,6 @@ for (const menuItem of menuItems) {
   menuItem.onmouseenter = () => onMenuItemMouseEnter(menuItem);
 }
 
-const menu = document.getElementsByClassName("menu")[0];
 menuItem.onmouseleave = hideSubmenu;
 
 // server

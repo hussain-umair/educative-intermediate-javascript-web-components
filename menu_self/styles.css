@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  background: lightgray;
+  width: 80%;
+}
+
+.menu__main {
+  width: 90%;
+  background: lightgray;
+}
+
+.menu__main__item {
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  border-bottom: 1px solid gray;
+}
+
+.menu__main__item:hover {
+  border-bottom: none;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  background: white;
+  margin: 0 -0.5px;
+}
+
+.menu__main__item:first-child:hover {
+  border-left: none;
+  margin-left: 0;
+}
+
+.menu__main__item:last-child:hover {
+  border-right: none;
+  margin-right: 0;
+}
+
+.sub__menu {
+  background: red;
+  height: 200px;
+  display: none;
+}
+
+.sub__menu--active {
+  display: block;
+}
